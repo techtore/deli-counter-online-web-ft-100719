@@ -10,8 +10,12 @@ new_array = []
   end
 end
 
-katz_deli = []
+
 
 def take_a_number(katz_deli, name)
+  katz_deli = []
+  i = 1
   
+  # joining the end of the line .push?
+  puts "#{name} number #{index}"# puts name of person and their position in line
 end
