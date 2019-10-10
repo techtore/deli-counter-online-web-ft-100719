@@ -12,7 +12,7 @@ end
 
 
 
-def take_a_number(array, name)
+def take_a_number(katz_deli, name)
   new_array = []
 
    array.each.with_index(1) do |name, index|
