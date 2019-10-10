@@ -12,10 +12,12 @@ end
 
 
 
-def take_a_number(katz_deli, name)
-  katz_deli = []
+def take_a_number(array, name)
+  array = []
   i = 1
   
+ puts "Welcome, #{name}. You are number #{number} in line." # puts name of person and their position in line
+  
   # joining the end of the line .push?
-  puts "#{name} number #{index}"# puts name of person and their position in line
+ 
 end
