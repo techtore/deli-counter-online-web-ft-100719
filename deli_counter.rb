@@ -25,7 +25,7 @@ def now_serving(array)
     array.each do |name|
     new_array.shift("#{name}") 
   end
- puts "Currently serving #{new_array.join(" ")." 
+ puts "Currently serving #{new_array.join(" ").}" 
   end
 end
   
