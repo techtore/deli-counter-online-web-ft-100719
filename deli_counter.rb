@@ -18,11 +18,13 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(array)
-  
+  new_array = []
   if array.length == 0
     puts "There is nobody waiting to be served!"
   else 
-    
+    array.each do |name|
+    new_array.push("#{name}") 
+  end
  puts "Currently serving #{name}." 
   end
 end
