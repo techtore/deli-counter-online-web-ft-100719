@@ -13,11 +13,12 @@ end
 
 
 def take_a_number(array, name)
-  array = []
-  i = 1
-  
- puts "Welcome, #{name}. You are number #{number} in line." # puts name of person and their position in line
-  
+  new_array = []
+
+   place.each.with_index(1) do |name, index|
+   new_array.push("#{index}. #{name}")
+ puts "Welcome, #{name}. You are number #{index} in line." # puts name of person and their position in line
+end
   # joining the end of the line .push?
  
 end
